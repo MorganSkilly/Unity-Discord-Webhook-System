@@ -2,10 +2,10 @@
 A simple script for sending webhooks with embedded files to Discord from Unity
 
 # Quickstart
-1 - Simply add this script to a unity project
-2 - Change the values in the default static strings at the top of the script to the appropriate vaules for you use case
-3 - Test setup by clicking Tools/Discord/Test
-4 - Begin calling functions from other scripts such as Discord.Send("Hello world!")
+- 1: Simply add this script to a unity project
+- 2: Change the values in the default static strings at the top of the script to the appropriate vaules for you use case
+- 3: Test setup by clicking Tools/Discord/Test
+- 4: Begin calling functions from other scripts such as Discord.Send("Hello world!")
 
 Check the other functions below for info
 
@@ -18,19 +18,19 @@ Feel free to use this script how ever you like, It is easy to impliment and allo
 
 # Functions
 Simple message functions and parameters
-  Discord.Send(string mssgBody)
-  Discord.Send(string mssgBody, string userName)
-  Discord.Send(string mssgBody, string userName, string webhook)
+  - Discord.Send(string mssgBody)
+  - Discord.Send(string mssgBody, string userName)
+  - Discord.Send(string mssgBody, string userName, string webhook)
   
 File sharing message functions and parameters
-  SendFile(
+  - SendFile(
         string mssgBody,
         string filename,
         string fileformat,
         string filepath,
         string application)
         
-  SendFile(
+  - SendFile(
         string mssgBody,
         string filename,
         string fileformat,
@@ -38,7 +38,7 @@ File sharing message functions and parameters
         string application,
         string userName)
         
-  SendFile(
+  - SendFile(
         string mssgBody,
         string filename,
         string fileformat,
@@ -53,3 +53,6 @@ File sharing message functions and parameters
 - File path is the fully qualified file path
 - File name includes file type example "file.csv" or "data.txt"
 - Remember discord will rate limit you if you send too many requests
+
+
+https://morgan.games/

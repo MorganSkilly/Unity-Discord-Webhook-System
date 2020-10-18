@@ -3,7 +3,7 @@ A simple script for sending webhooks with embedded files to Discord from Unity
 
 # Quickstart
 - 1: Simply add this script to a unity project
-- 2: Change the values in the default static strings at the top of the script to the appropriate vaules for you use case
+- 2: Change the values in the default static strings at the top of the script to the appropriate vaules for your use case
 - 3: Test setup by clicking Tools/Discord/Test
 - 4: Begin calling functions from other scripts such as Discord.Send("Hello world!")
 

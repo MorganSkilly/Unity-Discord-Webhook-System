@@ -14,7 +14,7 @@ I created this script primarily to send crash reports and analytics back to me o
 The script was created with reference to http://www.briangrinstead.com/blog/multipart-form-post-in-c a great blog post showing the basics of how to use multi form post requests.
 
 # Usage
-Feel free to use this script how ever you like, It is easy to impliment and allows you to instantly start tracking client data easily. It can also be used to add notifications etc. for players but I reccomend only calling the functions in menus etc. to avoid slowing down the game or causing it to hang.
+Feel free to use this script how ever you like, It is easy to impliment and allows you to instantly start tracking client data easily. It can also be used to add notifications etc. for players but I recommend only calling the functions in menus etc. to avoid slowing down the game or causing it to hang.
 
 # Functions
 Simple message functions and parameters

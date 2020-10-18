@@ -48,7 +48,7 @@ File sharing message functions and parameters
         string webhook)
                     
 # Notes
-- When sending data files I reccomend setting the application string to "application/msexcel" in order to default it to open in excel
+- When sending data files I recommend setting the application string to "application/msexcel" in order to default it to open in excel
 - File format does not include the dot example "csv" or "txt"
 - File path is the fully qualified file path
 - File name includes file type example "file.csv" or "data.txt"

@@ -53,6 +53,10 @@ File sharing message functions and parameters
 - File path is the fully qualified file path
 - File name includes file type example "file.csv" or "data.txt"
 - Remember discord will rate limit you if you send too many requests
+- IMPORTANT! in order to prevent your game from hanging I recommend you call the script functions as tasks like this, remembering to declare the namespace being used:
 
+```
+Task.Factory.StartNew(() => Send("Test"));
+```
 
 https://morgan.games/
